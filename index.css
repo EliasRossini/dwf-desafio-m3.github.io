@@ -1,0 +1,534 @@
+body{
+    margin: 0 0;
+}
+
+.contenedor-general{
+    background-image: url("./Imagenes/fondo-principal.avif");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 900px){
+    .contenedor-general{
+        max-width:100%;
+        max-height: 100%;
+    }
+
+}
+
+.contenedor-primario{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width:900px){
+    .contenedor-primario{
+        width: 100%;
+    }
+}
+
+@media (min-width: 900px){
+    .contenido-principal{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    }
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+.logo{
+    width: 54px;
+    height: 50px;
+    margin: 18px 17px;
+}
+
+@media (min-width: 900px){
+    .logo{
+        height: 109px;
+        width: 95px;
+        margin-top: 36px;
+        margin-left: 80px;
+    }
+}
+
+
+.nintendo{
+    height: 50px;
+    width: auto;
+    margin-top: 18px;
+}
+
+@media (min-width: 900px){
+    .nintendo{
+        display: none;
+    }
+}
+
+.menu{
+    display: none;
+}
+@media (min-width:900px){
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 428px;
+        height: 28px;
+        padding: 62px 103px;
+    }
+    .menu-link{
+        font-family: "Roboto";
+        font-size: 24px;
+        margin-left: 30px;
+    }
+}
+
+.hamburguesa{
+    display: inline-block;
+    width: 36px;
+    height: 32px;
+    margin: 18px 17px;
+}
+
+@media (min-width:900px){
+    .hamburguesa{
+        display: none;
+    }
+}
+
+
+.barra{
+display: block;
+width: 36px;
+height: 6px;
+margin: 7px 0;
+background-color: #141414;
+}
+
+
+.titulo-principal{
+    width: 291px;
+    height: 96px;
+    font-family: "open Sans";
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 42px;
+}
+
+@media (min-width:900px){
+    .titulo-principal{
+        margin-left: 80px;
+        margin-top: 130px;
+        align-items: baseline;
+    }
+}
+
+.imagen-principal{
+    width: 318px;
+    height: 300px;
+    margin: 0px 26px 22px 31px;
+}
+
+@media (min-width:900px){
+    .imagen-principal{
+        height: 395px;
+        width: 435px;
+        align-items: baseline;
+        margin-right: 80px;
+    }
+}
+
+.contenedor-secundario{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media (min-width: 900px){
+    .contenedor-secundario{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 538px;
+        width: 100%;
+}
+}
+
+@media (min-width:900px){
+    .contenedor-texto-sec{
+        margin-right: 301px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+.titulo-secundario{
+    color: white;
+    font-family: "Open Sans";
+    padding: 55px 52px 41px 52px;
+}
+
+.parrafo{
+    height: 193px;
+    width: 312px;
+    color: white;
+    margin: 0 32px;
+    font-family: "Roboto";
+}
+
+@media (min-width:900px){
+    .parrafo{
+        height: 165px;
+        width: 532px;
+    }
+}
+
+.boton-mario{
+    width: 80px;
+    height: 80px;
+    margin-left: 147px;
+    margin-right: 147px;
+    margin-top: 100px;
+    margin: 100px 147px 68px 147px;
+}
+
+@media (min-width: 900px){
+    .boton-mario{
+        height: 211px;
+        width: 211px; 
+        margin-right: 90px;    
+}
+}
+
+.contenedor-terciario{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width:900px){
+    .contenedor-terciario{
+        display: flex;
+        flex-direction: column;
+ }
+}
+
+@media (min-width:900px){
+    .contenedor-juegos{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 100%;
+        margin-bottom: 103px;
+    }
+}
+
+.titulo-terciario{
+    font-size: 32px;
+    margin: 69px 52px 48px 52px;
+    text-align: center;
+    font-family: "Open Sans";
+}
+
+@media (min-width:900px){
+    .titulo-terciario{
+        height: 56px;
+        width: 403px;
+        
+}
+}
+
+.mario-tenis{
+    width: 138px;
+    height: 128px;
+    display: block;
+    margin: auto;
+}
+
+.titulo-mario-tenis{
+    text-align: center;
+    font-family: "Open Sans"; 
+    font-size: 24px;
+}
+
+.parrafo-tenis{
+    height: 117px;
+    width: 262px;
+    margin: 15px 57px 100px 57px;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.mario-volador{
+    width: 138px;
+    height: 128px;
+    display: block;
+    margin: auto;
+}
+
+.titulo-mario-volador{
+    text-align: center;
+    font-family: "Open Sans"; 
+    font-size: 24px;
+}
+
+.parrafo-volador{
+    height: 117px;
+    width: 262px;
+    margin: 15px 57px 100px 57px;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.mario-kart{
+    width: 138px;
+    height: 128px;
+    display: block;
+    margin: auto; 
+    margin-top: 108px;
+}
+
+.titulo-mario-kart{
+    text-align: center;
+    font-family: "Open Sans"; 
+    font-size: 24px;
+}
+
+.parrafo-kart{
+    height: 117px;
+    width: 262px;
+    margin: 15px 57px 100px 57px;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.contenedor-cuarto{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width:900px){
+    .contenedor-cuarto{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.contenedor-formulario-cuarto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+@media (min-width: 900px){
+    .contenedor-formulario-cuarto{
+        margin-top: 100px;
+        margin-right: 400px;
+    }
+}
+
+.contenedor-nombre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-mensaje{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-formulario{
+    width: 100%;
+    height: 100%;
+}
+
+.titulo-cuarto{
+    color: white;
+    font-family: "Open Sans"; 
+    font-size: 32px;
+    text-align: center;
+    padding: 69px 52px;
+}
+
+@media (min-width:900px){
+    .titulo-cuarto{
+        margin-left: 400px;
+    }
+}
+
+.input{
+    height: 45px;
+    width: 335px;
+    margin-left: 20px;
+    margin-bottom: 51px;
+    
+}
+
+
+.label{
+    height: 15px;
+    width: 54px;
+    color: white;
+    margin-left: 20px;
+    font-family: "Roboto";
+
+}
+
+.msg{
+    height: 15x;
+    width: 54px;
+    color: white;
+    font-family: "Roboto";
+    display:block;
+    margin-left: 20px;
+}
+
+.mensaje{
+    height: 113px;
+    width: 335px;
+    margin-left: 20px;
+}
+
+.boton{
+    height: 45px;
+    width: 335px;
+    background-color: #FFD953;
+    margin: 60px 0 70px 20px;
+    font-family: "Roboto";
+}
+
+.contenedor-quinto{
+    height: 493px;
+    width: 100%;
+    background-image: url("./Imagenes/fondo-principal.avif");
+    background-repeat: no-repeat;
+    margin: 16px auto;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:900px){
+    .contenedor-quinto{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 346px;
+        width: 100%;
+}
+}
+
+@media (min-width:900px){
+    .contenedor-redes-sociales{
+        margin-top: 50px;
+        margin-right: 200px;
+}
+}
+.logo-secundario{
+    height: 71px;
+    width: 77px;
+    padding: 53px 282px 118px 16px;
+}
+
+@media (min-width: 900px){
+    .logo-secundario{
+        height: 109px;
+        width: 95px;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+}
+
+.contenedor-instagram{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.instagram-texto{
+    font-family: "Roboto";
+    margin: 5px;
+}
+.instagram{
+    height: 27px;
+    width: 27px;
+    margin: 0 8px 29px 19px;
+}
+
+
+.contenedor-github{
+    display: flex;
+    justify-content: flex-start;
+}
+.github{
+    height: 27px;
+    width: 27px;
+    margin: 0 8px 29px 19px;
+}
+
+.github-texto{
+    font-family: "Roboto";
+    margin: 5px;   
+}
+
+.contenedor-linkedin{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.linkedin{
+    height: 27px;
+    width: 27px;
+    height: 27px;
+    width: 27px;
+    margin: 0 8px 29px 19px;
+}
+
+.linkedin-texto{
+    font-family: "Roboto";
+    margin: 5px;
+}
+
+
+
